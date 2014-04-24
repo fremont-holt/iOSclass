@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		93140F7C1909CEF800C00AA3 /* console.m in Sources */ = {isa = PBXBuildFile; fileRef = 93140F7B1909CEF800C00AA3 /* console.m */; };
 		931F97AB1909C36500BB0FC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931F97AA1909C36500BB0FC1 /* Foundation.framework */; };
 		931F97AE1909C36500BB0FC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 931F97AD1909C36500BB0FC1 /* main.m */; };
 		931F97B21909C36500BB0FC1 /* Hello_World.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 931F97B11909C36500BB0FC1 /* Hello_World.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		93140F7A1909CED400C00AA3 /* console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = console.h; sourceTree = "<group>"; };
+		93140F7B1909CEF800C00AA3 /* console.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = console.m; sourceTree = "<group>"; };
 		931F97A71909C36500BB0FC1 /* Hello World */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hello World"; sourceTree = BUILT_PRODUCTS_DIR; };
 		931F97AA1909C36500BB0FC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		931F97AD1909C36500BB0FC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -73,7 +76,9 @@
 		931F97AC1909C36500BB0FC1 /* Hello World */ = {
 			isa = PBXGroup;
 			children = (
+				93140F7A1909CED400C00AA3 /* console.h */,
 				931F97AD1909C36500BB0FC1 /* main.m */,
+				93140F7B1909CEF800C00AA3 /* console.m */,
 				931F97B11909C36500BB0FC1 /* Hello_World.1 */,
 				931F97AF1909C36500BB0FC1 /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				931F97AE1909C36500BB0FC1 /* main.m in Sources */,
+				93140F7C1909CEF800C00AA3 /* console.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +259,7 @@
 				931F97B71909C36500BB0FC1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
